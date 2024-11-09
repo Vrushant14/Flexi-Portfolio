@@ -1,0 +1,50 @@
+/* The transition wrapper that holds the page */
+.transition-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Fade transition class definitions */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1a202c00;
+  color: white;
+  text-align: center;
+
+}
+
+.footer a {
+  color: inherit;
+}
+
+.resume-btn {
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #4c51bf; /* Darker indigo for hover */
+}
