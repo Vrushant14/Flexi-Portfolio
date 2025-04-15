@@ -14,7 +14,8 @@ const Hero = () => {
     'Tech Enthusiast',
     'Web Developer',
     'AI/ML Explorer',
-    'Cybersecurity Learner'
+    'Cybersecurity Learner',
+    'Good Boy'
   ];
   const typingSpeed = 150;
   const deletingSpeed = 100;
